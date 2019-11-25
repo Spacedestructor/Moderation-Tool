@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+#patmesenpai_1-stream {
+    width: var(--patmesenpai_1_stream_width);
+    height:var(--patmesenpai_1_stream_height);
+}
+#patmesenpai_1-chat {
+    width: var(--patmesenpai_1_chat_width);
+    height: var(--patmesenpai_1_chat_height),;
+}

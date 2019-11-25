@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta lang="en">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <script type="text/javascript" src="senpai.js"></script>
+        <div id="senpai">
+            <span id="senpai-player"><iframe src="https://player.twitch.tv/?channel=patmesenpai_1" frameborder="0" allowfullscreen="false" scrolling="no" height="378" width="620"></iframe></span>
+            <span id="senpai-chat"><iframe src="https://www.twitch.tv/embed/patmesenpai_1/chat" frameborder="0" scrolling="no" height="500" width="350"></iframe></span>
+            <span id="senpai-moderation">Here Could be a Moderation chat!</span>
+            <div id="senpai-buttons">
+                <button id="player-reload-senpai" onclick="reload_player_senpai()">Reload Senpai Player</button>
+                <button id="chat-reload-senpai" onclick="reload_chat_senpai()">Reload Senpai Chat</button>
+                <button id="moderation-reload-senpai" onclick="reload_moderation_senpai()">Reload Moderation Chat</button>
+            </div>
+        </div>
+    </body>
+</html>
